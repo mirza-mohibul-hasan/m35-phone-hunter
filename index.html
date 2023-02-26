@@ -12,11 +12,11 @@
 
 <body>
   <header>
-    <h1>Welcome to my phone hunter</h1>
+    <h1 class="text-center my-3">Welcome to my phone hunter</h1>
   </header>
   <main class="container">
     <!--Search form -->
-    <section class="d-flex w-50 gap-3">
+    <section class="d-flex w-50 gap-3 mx-auto">
       <input id="search-field" type="text" class="form-control" placeholder="Search Phone">
       <button id="btn-search" class="btn btn-primary">search</button>
     </section>
@@ -29,6 +29,11 @@
       <!-- No Phone Found -->
       <div id="no-found-message" class="d-none">
         <h3 class="text-warning p-4 ">No phone Found</h3>
+      </div>
+
+      <!-- Show All -->
+      <div id="show-all-section" class="mt-5 text-center d-none">
+        <div id="btn-show-all" class="btn btn-primary">Show All</div>
       </div>
     </section>
     <!-- Loader -->
